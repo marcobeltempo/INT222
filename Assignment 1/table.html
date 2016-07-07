@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tables</title>
+    <link rel="stylesheet" href="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-01/normalize.css"  type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-01/master.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/mycss.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="https://zenit.senecac.on.ca/~int222_161d05/">Main Home</a></li>
+        <li><a href="index.html">Assignment 1 Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="list.html">Lists with CSS</a></li>
+        <li><a href="text.html">Text with CSS</a></li>
+        <li><a href="table.html">Tables with CSS</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="honesty.html">Honesty</a></li>
+        <li><a href="css/mycss.css">CSS Used</a></li>
+      </ul>
+    </nav>
+    <div id="content">
+      <div id="mcontent">
+        <header>
+          <p id="pageHeader">Tables With CSS</p>
+        </header>
+        <!-- Your code goes here -->
+        <!-- Table A -->
+        <div class="tableA">
+          <table class="tableA1">
+            <CAPTION> Horizontal and Vertical Alignment </CAPTION>
+            <tr>
+              <td rowspan="5"> Examples </td>
+              <td colspan="4"> <span> Cell Alignment With CSS </span></td>
+            </tr>
+            <tr>
+              <td><span> Row      </span></td>
+              <td><span> Cell - 1 </span></td>
+              <td><span> Cell - 2 </span></td>
+              <td><span> Cell - 3 </span></td>
+            </tr>
+            <tr>
+              <td><span> 3 </span></td>
+              <td class= "c1r3"> CSS </td>
+              <td class= "c2r3"> CSS </td>
+              <td class= "c3r3"> CSS </td>
+            </tr>
+            <tr>
+              <td><span> 4 </span></td>
+              <td class= "c1r4"> CSS </td>
+              <td class= "c2r4"> CSS </td>
+              <td class= "c3r4"> CSS </td>
+            </tr>
+            <tr>
+              <td><span> 5 </span></td>
+              <td class= "c1r5"> CSS </td>
+              <td class= "c2r5"> CSS </td>
+              <td class= "c3r5"> CSS </td>
+            </tr>
+          </table>
+        </div>
+        <br>
+        <div class = "tableB">
+          <table class="tableA1">
+            <CAPTION>Horizontal and Vertical Alignment </CAPTION>
+            <tr>
+              <td rowspan="2"><span> Examples </span></td>
+              <td colspan="1"> <span> Cell Alignment With CSS </span></td>
+            </tr>
+            <td>
+              <table class="tableB1">
+                <tr>
+                  <td rowspan="4"><span> Examples </span></td>
+                  <td><span> Row </span></td>
+                  <td><span> Cell - 1 </span></td>
+                  <td><span> Cell - 2 </span></td>
+                  <td><span> Cell - 3 </span></td>
+                </tr>
+                <tr>
+                  <td><span> 3 </span></td>
+                  <td class= "c1r3"> CSS </td>
+                  <td class= "c2r3"> CSS </td>
+                  <td class= "c3r3"> CSS </td>
+                </tr>
+                <tr>
+                  <td><span> 4 </span></td>
+                  <td class= "c1r4"> CSS </td>
+                  <td class= "c2r4"> CSS </td>
+                  <td class= "c3r4"> CSS </td>
+                </tr>
+                <tr>
+                  <td><span> 5 </span></td>
+                  <td class= "c1r5"> CSS </td>
+                  <td class= "c2r5"> CSS </td>
+                  <td class= "c3r5"> CSS </td>
+                </tr>
+              </table>
+              <p class= "tableBfooter"> Nested Table </p>
+            </td>
+          </table>
+        </div>
+        <!-- Your code ends here -->
+        <!-- Defining Footer -->
+      </div>
+    </div>
+    <footer>
+      <script>
+        var dt=new Date(document.lastModified);   // Get document last modified date
+        document.write('This page was last updated on '+dt.toLocaleString()) 
+      </script>
+    </footer>
+  </body>
+</html>

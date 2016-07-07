@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Lists</title>
+    <link rel="stylesheet" href="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-01/normalize.css"  type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-01/master.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/mycss.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="https://zenit.senecac.on.ca/~int222_161d05/">Main Home</a></li>
+        <li><a href="index.html">Assignment 1 Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="list.html">Lists with CSS</a></li>
+        <li><a href="text.html">Text with CSS</a></li>
+        <li><a href="table.html">Tables with CSS</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="honesty.html">Honesty</a></li>
+        <li><a href="css/mycss.css">CSS Used</a></li>
+      </ul>
+    </nav>
+    <div id="content">
+      <div id="mcontent">
+        <header>
+          <p id="pageHeader">Lists With CSS</p>
+        </header>
+        <!-- Your code goes here -->
+        <ul class= "unorderedList">
+          <li> Unordered list 1 </li>
+          <li> Unordered list 2 </li>
+          <li> Unordered list 2 </li>
+        
+        <hr>
+        <ol class= "orderedList">
+          <li> ORDERED LIST 1 </li>
+          <li> ORDERED LIST 2 </li>
+          <li> ORDERED LIST 3 </li>
+        </ol>
+        <hr>
+        <ul class= "nestedUL">
+          <li> Unordered List 2.0 </li>
+          
+            <ol class= "nestedOl">
+              <li> Nested List 1.1 </li>
+              <li> Nested List 1.2 </li>
+              <li> Nested List 1.3 </li>
+            </ol>
+          
+          <li> Unordered List 2.0 </li>
+          <li>
+            <ol class= "nestedOl">
+              <li> Nested List 2.1 </li>
+              <li> Nested List 2.2 </li>
+              <li> Nested List 2.3 </li>
+            </ol>
+          </li>
+          <li> Unordered List 2.0 </li>
+          <li>
+            <ol class= "nestedOl">
+              <li> Nested List 3.1 </li>
+              <li> Nested List 3.2 </li>
+              <li> Nested List 3.3 </li>
+            </ol>
+          </li>
+        </ul>
+        <hr>
+        <dl>
+          <dt>HTML</dt>
+          <dd>Hypertext Markup Language</dd>
+          <dd>"A standardized system for tagging text files to achieve 
+            font, color, graphic, and hyperlink effects on World Wide Web pages." Wikipedia
+          </dd>
+          <dt>CSS</dt>
+          <dd>Cascading Style Sheet</dd>
+          <dd>"A style sheet language used for describing the presentation 
+            of a document written in a markup language." Wikipedia
+          </dd>
+        </dl>
+        <!-- Your code ends here -->
+      </div>
+    </div>
+    <!-- Defining Footer -->
+    <footer>
+      <script>
+        var dt=new Date(document.lastModified);   // Get document last modified date
+        document.write('This page was last updated on '+dt.toLocaleString()) 
+      </script>
+    </footer>
+  </body>
+</html>

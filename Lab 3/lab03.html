@@ -1,0 +1,70 @@
+< !DOCTYPE html >
+ < html lang = "en" >
+ < head >
+ < meta charset = "UTF-8" / >
+ < title > INT222 < /title> < script >
+ 
+var e1 = "",
+  e2 = "",
+  e3 = "",
+  e4 = "",
+  e5 = "",
+  e6 = "",
+  e7 = "",
+  e8 = "",
+  e9 = "";
+
+e1 = prompt("Enter your first name in lower case", "marco");
+
+e1 = e1[0].toUpperCase() + e1.substring(1);
+
+e2 = prompt(e1 + " Enter a number between 1-9:", "1");
+
+e3 = prompt("Enter 5 numbers separated by commas: ", "1,2,3,4,5");
+
+e4 = prompt("Enter 3 colours separated by commas: ", "red,gree,blue");
+
+e6 = e3.split(",");
+
+e7 = e4.split(",");
+
+var table, total, i;
+
+table = "<style> table, td { border: 3px solid; width: 4px; border-collapse:collapse; }
+				table {border-collapse:collapse;}
+</style><table>" +
+ "<tr><td>Times table for e2</td></tr>";
+
+for (i = 1; i <= 12; i++) {
+ total = e2 * i;
+
+ table += "<tr><td>" + e2 +
+  "</td><td>*</td><td>" + i +
+  "</td><td>=</td><td>" + total +
+  "</td></tr>";
+}
+table += "</table>";
+document.write(table);
+
+
+e8 = 0;
+
+for (var i = 0; i < e6.length; i++) {
+ e8 += e6[i];
+
+}
+prompt(e8);
+
+
+for (var i = 0; i < e7.length; i++) {
+ e9 += e7[i] + "\n";
+ alert(e9);
+
+}
+
+< /script>
+
+< /head>
+
+< body >
+ < /body> < /html>

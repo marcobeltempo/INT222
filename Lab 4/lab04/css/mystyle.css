@@ -1,0 +1,248 @@
+body {
+    padding: 5px;
+}
+/*STYLING FOR THE ENTIRE PAGE*/
+
+.orderForm {
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(204, 204, 204));
+    width: 1080px;
+    border: 2px solid rgb(170, 170, 170);
+}
+h3 {
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: -100px;
+}
+/*FORMATTINF FOR COMPANY NAME*/
+
+#company {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    color: rgb(51, 112, 164);
+    text-shadow: 2px 1px grey;
+    text-align: center;
+    margin-top: 100px;
+}
+/*FORMATTING FOR CONTACT INFO*/
+
+#contact {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    color: rgb(51, 112, 164);
+    text-shadow: 2px 1px grey;
+    text-align: center;
+    margin-top: -20px;
+}
+/*DIVIDERS BETWEEN COMAPNY AND CONTACT INFO*/
+
+#seperator1,
+#seperator2 {
+    color: red;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: -30px;
+}
+/*STYLING FOR THE MAIN ORDER TABLE*/
+
+td {
+    border: 2px solid rgb(170, 170, 170);
+    width: 900px;
+}
+.orderTable {
+    display: table;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+}
+/*SECTION HEADERS*/
+
+h1 {
+    border: 3px solid rgb(138, 9, 9);
+    outline: 3px solid rgb(252, 177, 177);
+    background-color: rgb(152, 255, 152);
+    text-shadow: 2px 3px black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: inline;
+    color: white;
+    width: 260px;
+    height: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    position: relative;
+    bottom: -15px;
+    left: 28px;
+}
+/*BOX FORMATTING*/
+
+.pInfo,
+.slice,
+.cheeses,
+.sauces,
+.instruct,
+.toppings,
+.image1 {
+    border: 5px outset rgb(177, 216, 177);
+    width: 420px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+/*PERSONAL INFO FORMATTING*/
+
+#surname,
+#client,
+#phone,
+#dob {
+    background: linear-gradient(to bottom, rgb(240, 240, 240), rgb(253, 253, 253));
+    margin-bottom: 5px;
+}
+label {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 13px;
+    float: left;
+    clear: left;
+    width: 150px;
+    text-align: left;
+    margin-left: 5px;
+}
+/*PIZZA SIZE AND CRUST FORMATTING*/
+
+#pizzaCrust,
+#pizzaSize {
+    font-size: 13px;
+    width: 130px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    margin-right: -40px;
+}
+/*FORMATTING FOR SAUCES AND CHEESE*/
+
+#c01,
+#c02,
+#c03,
+#s01,
+#s02,
+#s03 {
+    font-size: 10px;
+    width: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+/*FORMATTING FOR SPECIAL INSTRUCTIONS*/
+
+#note {
+    resize: none;
+    width: 400px;
+    height: 50px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+}
+/*CONTROLS THE RIGHT COLUMN*/
+
+.rightColumn {
+    margin-top: 20px;
+    margin-right: -5px;
+}
+/*FORMATTING FOR THE TOPPING HEADER*/
+
+#topHeader {
+    position: relative;
+    bottom: -18px;
+    left: 32px;
+}
+/*tOPPING OPTION ALIGNMENT*/
+
+#t01,
+#t02,
+#t03,
+#t04,
+#t05,
+#t06,
+#t07,
+#t08,
+#t09,
+#t10,
+#t11,
+#t12 {
+    margin-right: 10px;
+}
+.topCol1 {
+    font-size: 14px;
+    margin-left: 50px;
+    margin-right: 80px;
+    float: left;
+}
+.topCol2 {
+    font-size: 14px;
+    margin-left: 80px;
+}
+
+.toppings,
+.image1 {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    width: 380px;
+
+}
+.image1{
+	 background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(204, 204, 204));
+}
+#special {
+    margin-top: 50px;
+    margin-left: 75px;
+    margin-bottom: 15px;
+    height: 280px;
+
+}
+#sideMenu {
+    position: absolute;
+    padding: 5px;
+}
+/*FORMATTING FOR PRCING TABLE*/
+
+td {
+    width: 50px;
+    height: 30px;
+	border: solid;
+}
+/*FORMATTING FOR PRCING TABLE*/
+
+#tg {
+    margin-top: 20px;
+    margin-left: 14px;
+    text-align: center;
+    border: solid;
+    font-size: 12px;
+
+}
+#bold1,
+#bold2 {
+    font-weight: bold;
+}
+.priceTable,
+.yourPrice {
+    text-align: center;
+}
+/*FORMATTING FOR SUBMIT BUTTON*/
+
+#submit {
+    padding: 5px 4px;
+    background: rgb(4, 90, 184);
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+footer {
+    border: 2px solid rgb(170, 170, 170);
+    text-align: center;
+    margin-top: 2px;
+    font-weight: bold;
+    width: 1080px;
+}

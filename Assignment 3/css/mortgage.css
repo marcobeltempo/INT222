@@ -1,0 +1,279 @@
+body {
+    height: 100%;
+    width: 1000px;
+    margin-left: 20px;
+    background: rgb(10, 89, 130);
+    width: 1080px;
+    width: 1080px;
+}
+#mainTitle {
+    color: white;
+    position: relative;
+    left: 43%;
+}
+#pInfo,
+#mortDetails,
+#propInfo,
+#propType {
+    border-style: none;
+    width: 500px;
+    position: relative;
+    left: 50%;
+}
+legend,
+#commentsHeader {
+    color: white;
+    border: 3px solid RGB(255, 189, 0);
+    padding: 5px;
+    position: relative;
+    right: 200px;
+    margin-bottom: 10px;
+}
+label {
+    color: white;
+    vertical-align: middle;
+}
+#clientIdLabel {
+    position: relative;
+    right: 150px;
+    top: 2px;
+}
+#userId {
+    position: relative;
+    right: 140px;
+    top: 2px;
+    vertical-align: middle;
+}
+#clientNameLabel,
+#client {
+    position: relative;
+    left: 75px;
+    bottom: 23px;
+    vertical-align: middle;
+}
+#client {
+    left: 85px;
+}
+#amortLabel,
+#amortization {
+    position: relative;
+    right: 150px;
+    vertical-align: middle;
+}
+#intLabel,
+#intRate {
+    position: relative;
+    right: 150px;
+    top: 15px;
+    vertical-align: middle;
+}
+#amortization,
+#intRate {
+    right: 140px;
+    width: 75px;
+}
+#yearLabel,
+#monthLabel {
+    position: relative;
+    left: 75px;
+    bottom: 12px;
+    vertical-align: middle;
+}
+#mortYear {
+    position: relative;
+    left: 98px;
+    bottom: 10px;
+    vertical-align: middle;
+    width: 75px;
+}
+#monthLabel {
+    bottom: 75px;
+}
+#mortMonth {
+    position: relative;
+    left: 85px;
+    bottom: 74px;
+    vertical-align: middle;
+    width: 75px;
+}
+#propValueLabel {
+    position: relative;
+    right: 150px;
+    top: 2px;
+}
+#propValue {
+    position: relative;
+    right: 140px;
+    top: 2px;
+    vertical-align: middle;
+}
+#downPayLabel,
+#downPay {
+    position: relative;
+    left: 75px;
+    bottom: 43px;
+    vertical-align: middle;
+}
+#downPay {
+    left: 85px;
+}
+.income,
+#income {
+    position: relative;
+    right: 75px;
+    bottom: 20px
+}
+.city,
+#propLocation {
+    position: relative;
+    left: 80px;
+    bottom: 153px;
+    vertical-align: middle;
+}
+#propTypeLabel {
+    position: relative;
+    right: 430px;
+    bottom: 140px;
+    vertical-align: middle;
+}
+.propCol1 {
+    position: relative;
+    right: 85px;
+    bottom: 110px;
+    vertical-align: middle;
+    color: black;
+}
+.propCol2 {
+    position: relative;
+    right: 75px;
+    bottom: 110px;
+    vertical-align: middle;
+}
+#prop1,
+#prop2,
+#prop3 {
+    margin-right: 5px;
+}
+#prop4,
+#prop5,
+#prop6 {
+    margin-right: 5px;
+}
+.propCol1,
+.propCol2 {
+    font-size: 16px;
+    margin-right: 15px;
+    float: left;
+}
+#commentsHeader {
+    position: relative;
+    width: 200px;
+    bottom: 190px;
+    left: 355px;
+    vertical-align: middle;
+}
+#comments {
+    position: relative;
+    bottom: 185px;
+    left: 420px;
+    vertical-align: middle;
+}
+#errorBox {
+    width: 340px;
+    height: 100px;
+    position: relative;
+    bottom: 150px;
+    left: 375px;
+    vertical-align: middle;
+    overflow: scroll;
+    margin-bottom: -100px;
+    font-weight: bold;
+    color: RGB(240, 101, 96);
+
+}
+select {
+    margin-top: 10px;
+}
+#calcButton {
+    position: relative;
+    bottom: 680px;
+    vertical-align: middle;
+}
+#payment {
+    width: 140px;
+    height: 35px;
+    position: relative;
+    left: 32px;
+    bottom: 595px;
+    vertical-align: middle;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+}
+#submitButton {
+    width: 140px;
+    height: 40px;
+    position: relative;
+    right: 175px;
+    bottom: 100px;
+    vertical-align: middle;
+}
+.button {
+    height: 40px;
+    background-color: RGB(39, 200, 144);
+    border: none;
+    color: white;
+    padding: 10px 11px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+}
+#resetBtn {
+    background-color: RGB(240, 101, 96);
+    border: none;
+    color: white;
+    padding: 10px 11px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    width: 140px;
+    height: 40px;
+    position: relative;
+    right: 320px;
+    bottom: 50px;
+    vertical-align: middle;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+}
+li {
+    float: left;
+    margin-left: 100px
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a:hover {
+    background-color: RGB(255, 189, 0);
+}
+.active {
+    background-color: #4CAF50;
+}
+footer {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}

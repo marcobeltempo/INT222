@@ -1,0 +1,133 @@
+
+	
+body {background-color: LightGrey;}
+
+/* Title */
+
+h1 {text-align:center;}
+
+/* Design for table*/
+.table1, .table2, .table3 {
+  display: table;
+  width:1200px;
+  margin:auto; 
+  margin-bottom: 2px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: red;
+ border-collapse: collapse;
+ 
+}
+
+/*Displays table row */
+
+  .table-row,  .table-row2, .table-row3 {
+		display: table-row;
+	}
+
+/* Design of inner table  */
+
+  .table-head1, .table-head2, .table-head3 {
+      display: table-cell;
+      padding:10px;
+	  width:30%;
+	  height:100%;
+      border-width:4px;
+	  border-color: red;
+	  border-right-style: dashed;
+	  border-right-color: black;
+	   border-collapse: collapse;
+		
+	}
+
+/* Formatting for row heading 1 */
+	 .table-head1 strong{
+		border: 2px solid;
+		border-color: rgb(00, 33, 66);
+		background-color: white;
+		font-style: bold;		
+	}
+	.table1 p { text-decoration: underline;}
+
+/* Format Definition list in Table 1, Block 3 */
+	dl {
+     margin-left: 45;
+	}	
+
+		/* Table 2	*/
+		/*              */			
+	.table-head2 strong{
+		border: 2px solid;
+		border-color: rgb(00, 33, 66);
+		background-color: white;
+		font-style: bold;	
+	} 
+	
+/* Table A display for row 2 box 1 */
+	.table-head2 h1  {
+		text-align: center;
+		font-size: 16px;
+		text-decoration : underline;
+	}
+
+	table {
+		border: 3px solid black;
+		border-collapse: seperate;
+		margin: auto;
+		margin-top: 10px;
+		width: 300px;
+		height: 65px;
+	}
+	
+	th, td {
+	 border: 2px solid black;
+	 border: thin solid black;
+	}
+	
+	 h2 {
+		font-size: 14px;
+		text-align: center;
+		text-decoration: underline;
+	} 	
+	
+	.tableB span p {
+		text-align: center;
+		font-size: 15px;
+		font-weight: bold;
+		margin: auto;	
+	}
+	
+	 h3 {
+		font-size: 14px;
+		text-align: center;
+		text-decoration: underline;
+		margin-top: 1px;
+	} 	
+/*Centers Picture */
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+/*Centers picture caption */
+	figcaption {
+		text-align: center;
+		padding-top: 8px;
+	}
+
+	 .table-head3 strong{
+		border: 2px solid;
+		border-color: rgb(00, 33, 66);
+		background-color: white;
+		font-style: bold;
+		
+	}
+	
+/*Link formatting */
+	a:link{
+		color: black;
+		background-color: transparent;
+		text-decoration: none;
+		padding-left: 12px;
+		
+	}
+	

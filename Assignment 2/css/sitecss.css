@@ -1,0 +1,459 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+	
+}
+body {
+    background-color: RGB(249, 249, 249);
+   
+}
+#main {
+    transition: margin-left .5s;
+}
+.side_nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: purple;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.side_nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: RGB(238, 238, 238);
+    display: block;
+    transition: 0.3s;
+}
+.side_nav a:visited,
+.side_nav a:link {
+    color: white;
+}
+.side_nav a:hover,
+.offcanvas a:focus {
+    color: black;
+}
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+    .side_nav {
+        padding-top: 15px;
+    }
+    .side_nav a {
+        font-size: 18px;
+    }
+}
+#header {
+    background-color: black;
+    color: RGB(238, 238, 238);
+    width: 1280px;
+    height: 180px;
+}
+#menu_collapse {
+    font-size: 55px;
+    position: relative;
+    left: 20px;
+}
+#home_icon {
+    position: relative;
+    bottom: 72px;
+    left: 645px;
+}
+#gallery_icon {
+    position: relative;
+    bottom: 69px;
+    left: 665px;
+}
+#guestbook_icon {
+    position: relative;
+    bottom: 69px;
+    left: 695px;
+}
+#table_icon,
+#video_icon,
+#audio_icon {
+    position: relative;
+    bottom: 69px;
+    left: 655px;
+}
+#html_icon {
+    position: relative;
+    bottom: 78px;
+    left: 665px;
+}
+#playbox_icon {
+    position: relative;
+    bottom: 78px;
+    left: 675px;
+}
+h1 {
+    position: relative;
+    text-align: center;
+    margin-left: -70px;
+}
+/* FORMATTING FOR THE RIGHT BOX  */
+
+.rightBox {
+    border: 3px solid black;
+    background-color: RGB(249, 249, 249);
+    width: 285px;
+    height: auto;
+    position: relative;
+    bottom: 35px;
+    left: 989px;
+}
+#social_media {
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 18px;
+}
+/* Formatting for the links in the right column of index.html*/
+
+#rec_link,
+#sm_link {
+    font-size: 20px;
+    text-align: center;
+    background-color: purple;
+    color: white;
+    height: auto;
+    margin-top: 0px;
+    padding: 7px;
+}
+#sm_link {
+    margin-top: 20px;
+}
+#java_linkT,
+#css_linkT,
+#html_linkT {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.CSShtml {
+    margin-left: 50px;
+}
+/* END RIGHT BOX FORMATING*/
+/*START FORMATTING FOR index.html main_body */
+
+.main_body {
+    padding-left: 120px;
+}
+.HC_title,
+#honesty_title,
+#WC_title {
+    color: purple;
+    margin-left: -20px
+}
+#seperator1,
+#seperator2,
+#seperator3,
+#seperator4 {
+    width: 870px;
+    margin-left: -35px;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.seperator_dashed {
+    width: 785px;
+    margin-top: 20px;
+    margin-left: -10px;
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+#honesty,
+#HC_history,
+#WC_history,
+#greece_desc,
+#italy_desc,
+#england_desc {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    line-height: 2em;
+    text-align: justify;
+    width: 750px;
+}
+#greece_title {
+    color: purple;
+    margin-left: -20px
+}
+#greece_desc,
+#italy_desc,
+#england_desc {
+    width: 670px;
+}
+#italy_title,
+#england_title {
+    color: purple;
+    margin-left: -20px;
+    margin-top: -150px;
+}
+#gallery_figcaption1,
+#gallery_figcaption2,
+#gallery_figcaption3 {
+    font-weight: bold;
+    color: purple;
+    position: relative;
+    bottom: 250px;
+    left: 695px;
+}
+#img_athens,
+#img_rome,
+#img_london {
+    position: relative;
+    bottom: 240px;
+    left: 650px;
+}
+#signature {
+    font-family: Brush Script MT, cursive;
+    font-size: 25px;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+#date {
+    margin-left: 10px;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+#video {
+    position: relative;
+    width: 750px;
+}
+#audio {
+    position: relative;
+    top: 10px;
+    left: 150px;
+    margin-bottom: 270px;
+    width: 20px;
+}
+button {
+    text-align: center;
+    background-color: transparent;
+    width: 220px;
+    height: 40px;
+    color: purple;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 42px;
+    margin-bottom: 5px;
+}
+#play_icon {
+    position: absolute;
+    top: 58px;
+    left: 180px;
+    width: 28px;
+    height: 28px;
+}
+#pause_icon {
+    position: absolute;
+    top: 105px;
+    left: 180px;
+    width: 28px;
+    height: 28px;
+}
+#volume_on {
+    position: absolute;
+    top: 148px;
+    left: 210px;
+    width: 28px;
+    height: 28px;
+}
+#volume_off {
+    position: absolute;
+    top: 193px;
+    left: 210px;
+    width: 28px;
+    height: 28px;
+}
+#increase_volume {
+    position: absolute;
+    top: 240px;
+    left: 233px;
+    width: 28px;
+    height: 28px;
+}
+#decrease_volume {
+    position: absolute;
+    top: 283px;
+    left: 233px;
+    width: 28px;
+    height: 28px;
+}
+/* Video Control Buttons*/
+
+#restart {
+    position: absolute;
+    top: 148px;
+    left: 190px;
+    width: 28px;
+    height: 28px;
+}
+#show_controls {
+    position: absolute;
+    top: 195px;
+    left: 225px;
+    width: 28px;
+    height: 28px;
+}
+#hide_controls {
+    position: absolute;
+    top: 238px;
+    left: 220px;
+    width: 28px;
+    height: 28px;
+}
+/* Formatting for the table */
+
+.table {
+    border: 3px solid RGB(52, 92, 120);
+    outline: 2px solid RGB(161, 179, 191);
+    position: relative;
+    ;
+    top: 50px;
+    width: 800px;
+    height: 450px;
+}
+.tableA1 {
+    border: 2px solid black;
+    border-collapse: separate;
+    border-spacing: 20px;
+    height: 350px;
+    font-size: 15px;
+    position: relative;
+    top: 40px;
+    left: 120px;
+    text-align: center;
+}
+td,
+tr {
+    border: 2px solid black;
+    color: black;
+    padding-left: 10px;
+    text-align: left;
+    width: 55px;
+}
+CAPTION {
+    color: black;
+    font-weight: normal;
+    margin-bottom: 1px;
+    text-align: center;
+}
+.c1r1,
+.c1r2,
+.c1r3,
+.c1r4,
+.c1r5 {
+    height: 35px;
+    text-align: left;
+    vertical-align: middle;
+    background-color: RGB(68, 191, 126);
+}
+.c2r1,
+.c2r2,
+.c2r3,
+.c2r4,
+.c2r5 {
+    height: 35px;
+    text-align: left;
+    vertical-align: middle;
+    background-color: RGB(58, 204, 150);
+}
+.c3r1,
+.c3r2,
+.c3r3,
+.c3r4,
+.c3r5 {
+    height: 35px;
+    text-align: left;
+    vertical-align: middle;
+    background-color: RGB(53, 216, 184);
+}
+.c4r1,
+.c4r2,
+.c4r4,
+.c4r5 {
+    height: 35px;
+    text-align: left;
+    vertical-align: middle;
+    background-color: RGB(51, 228, 228);
+}
+.c5r1,
+.c5r2,
+.c5r4 {
+    height: 35px;
+    text-align: left;
+    vertical-align: middle;
+    background-color: RGB(49, 200, 241);
+}
+.c6r1 {
+    background-color: RGB(48, 162, 252);
+}
+/*Formatting for table right side */
+
+ol {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bold;
+    color: black;
+    line-height: 2em;
+    text-align: justify;
+}
+/* HTML5 Page Code & Example Headers */
+
+.example_caption,
+.code_caption {
+    font-weight: bold;
+}
+/*START LINK FORMATTING*/
+
+a:link {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+/*END LINK FORMATTING*/
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 20px;
+    width: 1280px;
+    position: relative;
+    top: 200px;
+}
+#footer_seperator {
+    width: 100%;
+    margin-left: -35px;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    position: relative;
+}

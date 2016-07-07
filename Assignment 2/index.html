@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Home</title>
+  <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/sitecss.css" type="text/css" media="screen" /> </head>
+
+<body>
+  <div id="sideNav" class="side_nav"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <ul style="list-style-type:none">
+      <li><a href="https://zenit.senecac.on.ca/~int222_161d05/">My Zenit</a>
+      </li>
+      <li><a href="index.html">Home</a>
+      </li>
+      <li><a href="gallery.html">Gallery</a>
+      </li>
+      <li><a href="video.html">Video</a>
+      </li>
+      <li><a href="audio.html">Audio</a>
+      </li>
+      <li><a href="html5.html">HTML5</a>
+      </li>
+      <li><a href="tables.html">Tables</a>
+      </li>
+      <li><a href="guestbook/index.html">Guestbook</a>
+      </li>
+      <li><a href="css/sitecss.css">CSS Used</a>
+      </li>
+      <li><a href="extra/index.html">Extra</a>
+      </li>
+    </ul>
+  </div>
+  <div class="wrapper">
+    <div id="main">
+      <div id="header"> <span id="menu_collapse" style="cursor:pointer" onclick="openNav()"> ☰ </span>
+        <h1> home </h1> <img id="home_icon" src="images/icons/home_icon.png" alt="Home Icon" height="55" width="55">
+        <div class="rightBox">
+          <h2 id="rec_link">Recommended Links</h2>
+          <p id="html_linkT">HTML5</p> <a class="CSShtml" href="https://en.wikipedia.org/wiki/HTML5">Wikipedia- HTML5 Info</a>
+          <br> <a class="CSShtml" href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">MDN- Developer Guide</a>
+          <p id="css_linkT">CSS</p> <a class="CSShtml" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">Wikipedia- CSS Info</a>
+          <br> <a class="CSShtml" href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN- CSS Resources</a>
+          <p id="java_linkT">Javascript</p> <a class="CSShtml" href="https://en.wikipedia.org/wiki/JavaScript">Wikipedia- Javascript Info</a>
+          <br> <a class="CSShtml" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">MDN- Javascript Resources</a>
+          <br>
+          <br>
+          <h2 id="sm_link">Social Media Links</h2>
+          <div id="social_media" style="position: relative; background: url('images/social_media.png') no-repeat; width: 250px; height: 140px;">
+            <!-- images on row 1 - top 3px left 4px    - increment left by 27px for the next one -->
+            <!-- images on row 2 - top 30px left 4px   - increment left by 27px for the next one -->
+            <!-- images on row 3 - top 57px left 4px   - increment left by 27px for the next one -->
+            <!-- images on the next row - increment top by 27px for the next row -->
+            <a href="http://www.facebook.com" style=" width: 23px; height: 23px; border: 0; position: absolute; top: 4px; left: 5px;"></a>
+            <!-- use this as a guide -->
+            <a href="http://www.twitter.com" style=" width: 23px; height: 23px; border: 0;position: absolute; top: 4px; left: 34px;"></a>
+            <!-- use this as a guide -->
+            <a href="http://www.pintrest.com" style=" width: 23px; height: 23px; border: 0;position: absolute; top: 4px; left: 61px;"></a>
+            <a href="https://plus.google.com/" style=" width: 23px; height: 23px; border: 0;position: absolute; top: 4px; left: 85px;"></a>
+          </div>
+        </div>
+      </div>
+      <div class="main_body">
+        <h3 class="HC_title">HTML5 & CSS Normalize </h3>
+        <p id="HC_history"> HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and current version of the HTML standard. HTML5 includes detailed processing models to encourage more interoperable implementations; it extends, improves and rationalizes the markup available for documents, and introduces markup and application programming interfaces (APIs) for complex web applications.<a href="https://en.wikipedia.org/wiki/HTML5">("Wikipedia- HTML5")</a>
+          <br><br> The use of Normalize.css allows a browser to render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing. </p>
+        <hr id="seperator4">
+        <h3 id="honesty_title">Honesty / Copyright </h3>
+        <p id="honesty"> I declare that the attached assignment is wholly my own work in accordance with Seneca Academic Policy. No part of this assignment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the INT222 instructors and / or made available in this assignment for my use. I also declare that no part of this assignment has been distributed to other students.
+          <br> </p> Signed: <span id="signature">  Marco Beltempo </span>
+        <br> Dated: <span id="date">  03/19/2016 </span>
+        <br>
+        <br> </div>
+      <footer>
+        <hr id="footer_seperator">
+        <script>
+          var dt = new Date(document.lastModified); // Get document last modified date
+          document.write('This page was last updated on ' + dt.toLocaleString())
+        </script>
+      </footer>
+    </div>
+    <!--Within this div  to push all content to the right -->
+  </div>
+  <!-- Sourced from http://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav_push -->
+  <script>
+    function openNav() {
+      document.getElementById("sideNav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("sideNav").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+    }
+  </script>
+</body>
+
+</html>

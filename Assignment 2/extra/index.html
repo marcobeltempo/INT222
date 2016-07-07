@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Extra</title>
+  <link rel="stylesheet" href="normalize.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="extra.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="../css/sitecss.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-02/guest.css" type="text/css" /> </head>
+
+<body>
+  <div id="sideNav" class="side_nav"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <ul style="list-style-type:none">
+      <li><a href="https://zenit.senecac.on.ca/~int222_161d05/">My Zenit</a>
+      </li>
+      <li><a href="../index.html">Home</a>
+      </li>
+      <li><a href="../gallery.html">Gallery</a>
+      </li>
+      <li><a href="../video.html">Video</a>
+      </li>
+      <li><a href="../audio.html">Audio</a>
+      </li>
+      <li><a href="../html5.html">HTML5</a>
+      </li>
+      <li><a href="../tables.html">Tables</a>
+      </li>
+      <li><a href="../guestbook/index.html">Guestbook</a>
+      </li>
+      <li><a href="../css/sitecss.css">CSS Used</a>
+      </li>
+      <li><a href="../extra/index.html">Extra</a>
+      </li>
+    </ul>
+  </div>
+  <div class="wrapper">
+    <div id="main">
+      <div id="header"> <span id="menu_collapse" style="cursor:pointer" onclick="openNav()"> ☰ </span>
+        <h1> sandbox </h1> <img id="playbox_icon" src="../images/icons/sandbox_icon.png" alt="Playbox Icon" height="55" width="55">
+        <div class="rightBox">
+          <h2 id="rec_link">Code Sandboxes</h2> <a class="CSShtml" href="https://jsfiddle.net">JSFiddle</a>
+          <br> <a class="CSShtml" href="http://codepen.io/">Code Pen</a>
+          <br> <a class="CSShtml" href="http://htmlsandbox.com/">HTML Sandbox</a>
+          <br>
+          <h2 id="sm_link">Social Media Links</h2>
+          <div id="social_media" style="position: relative; background: url('../images/social_media.png') no-repeat; width: 250px; height: 140px;">
+            <!-- images on row 1 - top 3px left 4px    - increment left by 27px for the next one -->
+            <!-- images on row 2 - top 30px left 4px   - increment left by 27px for the next one -->
+            <!-- images on row 3 - top 57px left 4px   - increment left by 27px for the next one -->
+            <!-- images on the next row - increment top by 27px for the next row -->
+            <a href="http://www.facebook.com" style=" width: 23px; height: 23px; border: 0; position: absolute; top: 4px; left: 5px;"></a>
+            <!-- use this as a guide -->
+            <a href="http://www.twitter.com" style=" width: 23px; height: 23px; border: 0;position: absolute; top: 4px; left: 34px;"></a>
+            <!-- use this as a guide -->
+            <a href="http://www.pintrest.com" style=" width: 23px; height: 23px; border: 0;position: absolute; top: 4px; left: 61px;"></a>
+            <a href="https://plus.google.com/" style=" width: 23px; height: 23px; border: 0;position: absolute; top: 4px; left: 85px;"></a>
+          </div>
+        </div>
+      </div>
+      <div class="main_body">
+        <h3 id="HC_title">JSFiddle Sandbox </h3>
+        <p id="HC_history"> Feel free to play around with the website code and test new styles and teqniques you've learned.
+          <br> Just press edit in JSFiddle below. </p>
+        <iframe style="width: 47%; height: 500px" src="https://jsfiddle.net/mab9104/cpojfomL/5/embedded/html,css,result"> </iframe>
+      </div>
+      <footer>
+        <hr id="footer_seperator">
+        <script>
+          var dt = new Date(document.lastModified); // Get document last modified date
+          document.write('This page was last updated on ' + dt.toLocaleString())
+        </script>
+      </footer>
+    </div>
+    <!--Within this div  to push all content to the right -->
+  </div>
+  <!-- Sourced from http://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav_push -->
+  <script>
+    function openNav() {
+      document.getElementById("sideNav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("sideNav").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+    }
+  </script>
+</body>
+
+</html>

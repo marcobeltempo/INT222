@@ -1,0 +1,70 @@
+label {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    float: left;
+    clear: left;
+    width: 150px;
+    text-align: left;
+    margin-left: 5px;
+}
+#sign_icon {
+    position: absolute;
+    top: 60px;
+    left: 225px;
+    width: 28px;
+    height: 28px;
+}
+#reset_icon {
+    position: absolute;
+    top: 103px;
+    left: 220px;
+    width: 28px;
+    height: 28px;
+}
+#view_icon {
+    position: absolute;
+    top: 148px;
+    left: 223px;
+    width: 28px;
+    height: 28px;
+}
+#hide_icon {
+    position: absolute;
+    top: 193px;
+    left: 223px;
+    width: 28px;
+    height: 28px;
+}
+#guest,
+#email,
+.city,
+#province,
+#web_title,
+#comments {
+    margin-bottom: 10px;
+}
+#sign_button,
+#reset_button,
+#view_button,
+#hide_button {
+    font-size: 18px;
+    text-align: center;
+    background-color: transparent;
+    width: 220px;
+    height: 40px;
+    color: black;
+    font-weight: bold;
+    margin-left: 42px;
+    margin-bottom: 5px;
+}
+#viewguests {
+    width: 800px;
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 120px;
+    margin-left: 100px;
+}
+.guest_form {
+    width: 1000px;
+}

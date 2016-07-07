@@ -1,0 +1,239 @@
+body
+{
+	background-color: rgb(54, 76, 99);
+	font-family: Arial, Helvetica, sans-serif;
+	position: static;
+}
+nav
+{
+	background-color: rgb(242, 242, 242);
+	font-weight: bold;
+}
+a:link
+{
+	background-color: rgb(242, 242, 242);
+	color: rgb(54, 76, 99);
+}
+a:visited
+{
+	background-color: rgb(242, 242, 242);
+	color: rgb(54, 76, 99);
+}
+#mcontent a:link
+{
+	background-color: rgb(38, 38, 38);
+	color: rgb(102, 102, 102);
+	font-weight: bold;
+	text-decoration: none;
+}
+#mcontent a:visited
+{
+	background-color: rgb(54, 76, 99);
+	color: rgb(255, 77, 77);
+	font-weight: bold;
+}
+#mcontent a:active
+{
+	background-color: rgb(242, 242, 242);
+}
+#mcontent
+{
+	color: white;
+}
+#pageHeader
+{
+	text-align: center;
+}
+.profile
+{
+	border: 4px solid black;
+	line-height: 2em;
+	padding: 15px;
+	text-align: left;
+}
+.profileHeader
+{
+	text-align: center;
+}
+.unorderedList
+{
+	list-style-type: square;
+}
+.orderedList
+{
+	text-transform: lowercase;
+}
+.nestedOl
+{
+	list-style-type: lower-roman;
+}
+.p1
+{
+	letter-spacing: 3px;
+}
+.p2
+{
+	text-decoration: underline;
+}
+.p3
+{
+	word-spacing: 30px;
+}
+.p4
+{
+	text-indent: 40px;
+}
+.p5
+{
+	background-color: darkblue;
+	color: #FFFFFF;
+	margin: auto;
+}
+.p6
+{
+	font-family: Times New Roman, Georgia, Serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+.p7
+{
+	font-style: italic;
+}
+#p8
+{
+	text-decoration: underline;
+}
+.p9
+{
+	text-transform: uppercase;
+}
+.tableA1
+{
+	border: 4px solid black;
+	border-collapse: separate;
+	border-spacing: 10px;
+	margin: auto;
+	width: 500px;
+}
+td
+{
+	border: 2px solid black;
+	color: black;
+}
+.tableA1, .tableB1 span p
+{
+	font-size: 15px;
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+}
+CAPTION
+{
+	color: black;
+	font-weight: normal;
+	margin-bottom: 1px;
+	text-align: center;
+}
+.c1r3
+{
+	height: 60px;
+	padding-left: 1px;
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: top;
+}
+.c2r3
+{
+	padding-left: 1px;
+	text-align: left;
+	vertical-align: middle;
+}
+.c3r3
+{
+	padding-left: 1px;
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: bottom;
+}
+.c1r4
+{
+	height: 60px;
+	text-align: center;
+	vertical-align: top;
+}
+.c2r4
+{
+	text-align: center;
+	vertical-align: center;
+}
+.c3r4
+{
+	text-align: center;
+	vertical-align: bottom;
+}
+.c1r5
+{
+	height: 60px;
+	text-align: right;
+	vertical-align: top;
+}
+.c2r5
+{
+	text-align: right;
+	vertical-align: middle;
+}
+.c3r5
+{
+	text-align: right;
+	vertical-align: bottom;
+}
+.tableB1
+{
+	border: 4px solid black;
+	border-collapse: separate;
+	border-color: black;
+	border-spacing: 12px;
+	border-width: 300px;
+	border-width: 8px;
+	margin: auto;
+	margin-bottom: 2px;
+	margin-top: 20px;
+}
+.tableBfooter
+{
+	margin-bottom: auto;
+	margin-top: auto;
+}
+.tableB
+{
+	margin-bottom: 30px;
+}
+.map
+{
+	height: 300px;
+	position: absolute;
+	right: 250px;
+	top: 140px;
+}
+.mail
+{
+	margin-bottom: 200px;
+}
+.honesty1
+{
+	line-height: 2em;
+	text-align: left;
+}
+.signature
+{
+	font-family: Brush Script MT,cursive;
+	font-size: 25px;
+	text-decoration: underline;
+	white-space: nowrap;
+}
+.date
+{
+	margin-left: 10px;
+	text-decoration: underline;
+	white-space: nowrap;
+}

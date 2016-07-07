@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <title>Beltempo</title>
+   <link href='css/normalize.css' rel='stylesheet' type='text/css' />
+   <link href='css/mortgage.css' rel='stylesheet' type='text/css' />
+   <script src='javascript/mortgage.js' type='text/javascript'></script>
+</head>
+
+<body>
+
+   <form method="post" id="mortgage" name="mortgage" action="https://zenit.senecac.on.ca/~emile.ohan/cgi-bin/assign3.cgi" onsubmit="return formValidation();">
+
+      <h1 id="mainTitle">Mortgage Calculator</h1>
+      <div class="personalInfo">
+
+         <fieldset id="pInfo">
+            <legend>Personal Information</legend>
+
+            <label id="clientIdLabel">Client ID</label>
+            <input type="text" name="userId" id="userId" maxlength=10 size=10 />
+            <br />
+            <label id="clientNameLabel">Client Name</label>
+            <input type="text" name="client" id="client" />
+         </fieldset>
+      </div>
+      <div>
+         <fieldset id="mortDetails">
+            <legend>Mortgage Details</legend>
+
+            <label id="amortLabel">Amortization</label>
+            <input type="text" name="amortization" id="amortization" maxlength=2 size=3 />
+            <br />
+            <label id="intLabel">Interest Rate</label>
+            <input type="text" name="intRate" id="intRate" maxlength=6 size=7 />
+            <br />
+            <label id="yearLabel">Year</label>
+            <input type="text" name="mortYear" id="mortYear" maxlength=4 size=5 />
+            <br />
+            <label id="monthLabel">Month</label>
+            <input type="text" name="mortMonth" id="mortMonth" maxlength=2 size=4 />
+         </fieldset>
+      </div>
+
+      <fieldset id="propInfo">
+         <legend>Financial/Property Information</legend>
+
+         <label id="propValueLabel">Property Value</label>
+         <input type="text" name="propValue" id="propValue" maxlength=6 size=7 />
+         <br/>
+         <br/>
+         <label id="downPayLabel">Down Payment</label>
+         <input type="text" name="downPay" id="downPay" maxlength=6 size=7 />
+
+         <br>
+         <br>
+
+         <div class="income">
+            <label class="income">Income Range</label>
+            <br>
+            <select name="income" id="income" size=4>
+               <option>Under 30,000</option>
+               <option>30,001 - 40,000</option>
+               <option>40,001 - 50,000</option>
+               <option>50,001 - 60,000</option>
+               <option>60,001 - 70,000</option>
+               <option>70,001 - 80,000</option>
+               <option>80,001 - 90,000</option>
+               <option>90,001 - 100,000</option>
+               <option>100,001 - 150,000</option>
+               <option>Over 150,000</option>
+            </select>
+         </div>
+
+         <div>
+            <label class="city">Location</label>
+            <br />
+            <select name="propLocation" id="propLocation" size=4>
+               <option>Toronto</option>
+               <option>Thornhill</option>
+               <option>Woodbridge</option>
+               <option>Richmondhill</option>
+               <option>Markham</option>
+            </select>
+         </div>
+
+         <div class="propType">
+            <label id="propTypeLabel">Property Type</label>
+            <div class="propCol1">
+               <input type="radio" name="propDetails" id="prop1" value="detached" />Detached
+               <br>
+               <input type="radio" name="propDetails" id="prop2" value="semidetached" />Semi Detached
+               <br>
+               <input type="radio" name="propDetails" id="prop3" value="townhouse" />Town House
+               <br>
+            </div>
+            <div class="propCol2">
+               <input type="radio" name="propDetails" id="prop4" value="rowhouse" />Row House
+               <br>
+               <input type="radio" name="propDetails" id="prop5" value="condo" />Condo
+               <br>
+               <input type="radio" name="propDetails" id="prop6" value="vacantland" />Vacant Land
+               <br>
+            </div>
+         </div>
+      </fieldset>
+
+
+      <input id="payment" type="text" name="payment" maxlength=8 size=8 readonly />
+      <div>
+         <input class="button" id="calcButton" type="button" value="Calculate Monthly Payment" onclick="calculatePayment()" />
+         <input class="button" id="submitButton" type="submit" value="Submit Request" />
+
+         <button id="resetBtn" type="reset" value="Reset">Clear</button>
+      </div>
+      <div>
+
+
+         <p id="commentsHeader">
+            Comments </p>
+
+         <textarea id="comments" name="comments" class="centerElem" rows=2 cols=30></textarea>
+
+      </div>
+
+      <fieldset id="errorBox">
+         <input type="hidden" name="jsActive" id="jsActive" value="N" />
+         <input type="hidden" name="lastName" id="lastName" value="Beltempo" />
+         <input type="hidden" name="studentId" id="studentId" value="031028095" />
+         <input type="hidden" name="zenitAccount" id="zenitAccount" value="int222_161d05" />
+      </fieldset>
+
+
+      <footer>
+         <script>
+            var dt = new Date(document.lastModified); // Get document last modified date
+            document.write('This page was last updated on ' + dt.toLocaleString())
+         </script>
+      </footer>
+      <div>
+         <ul>
+            <li><a href="https://zenit.senecac.on.ca/~int222_161d05/">My Zenit</a>
+            </li>
+            <li><a href="javascript/mortgage.js">My JavaScript</a>
+            </li>
+            <li><a href="css/mortgage.css">My CSS</a>
+            </li>
+            <li><a href="honesty.html">My Honesty</a>
+            </li>
+         </ul>
+      </div>
+
+   </form>
+</body>
+
+</html>

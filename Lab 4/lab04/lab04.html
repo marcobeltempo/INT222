@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>INT222_161d05 - lab04</title>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/mystyle.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <form action=https://zenit.senecac.on.ca/~emile.ohan/cgi-bin/echo-p.pl
+      method="post" target="_blank">
+      <div id="sideMenu">
+        <br>
+        <h3>Lab 04 </h3>
+        <p id="company">Papa's
+          <br>Pizza
+        </p>
+        <p id="seperator1"> _______________</p>
+        <br>
+        <p id="contact"> 416 or 905
+          <br> 222-2626
+        </p>
+        <p id="seperator2"> _______________</p>
+        <div class="priceTable">
+          <table id="tg">
+            <tr>
+              <td>Medium</td>
+              <td>$15.25</td>
+            </tr>
+            <tr>
+              <td>Large</td>
+              <td>$22.00</td>
+            </tr>
+            <tr>
+              <td>X-Large</td>
+              <td>$25.00</td>
+            </tr>
+            <tr>
+              <th colspan="2">Toppings</th>
+            </tr>
+            <tr>
+              <td>$1.79</td>
+              <td>Each</td>
+            </tr>
+            <tr>
+              <td id="bold1" colspan="2">Plus 13% HST</td>
+            </tr>
+            <tr>
+              <td id="bold2" colspan="2">Free Delivery</td>
+            </tr>
+          </table>
+        </div>
+        <div class="yourPrice">
+          <br> Your price
+          <br>
+          <input id="price" type="text" maxlength="8" size="7" />
+          <br>
+          <br>
+          <input id="submit" type="submit" value="Place Your Order" />
+        </div>
+      </div>
+      <div class="orderForm">
+        <br>
+        <table class="orderTable">
+          <tr>
+            <td>
+              <br>
+              <h1> Personal Information</h1>
+              <div class="pInfo">
+                <br>
+                <br>
+                <label>Name:</label>
+                <input id="surname" type="text" name="surname" maxlength="15" size="15"   />
+                <br>
+                <label>Account No.</label>
+                <input id="client" type="text" name="client" maxlength="12" size="12">
+                <br>
+                <label>Phone No.</label>
+                <input id="phone" type="text" name="phone" maxlength="12" size="13">
+                <br>
+                <label>Date of Birth</label>
+                <input id="dob" type="text" name="dob" maxlength="8" size="7">
+                <br>
+              </div>
+              <h1> Pizza Slice & Crust</h1>
+              <div class="slice">
+                <br>
+                <br>
+                <select id="pizzaSize" name="pizzaSize" size="2">
+                  <option value="Select Pizza Size">Select Pizza Size</option>
+                  <option value="S">Small</option>
+                  <option value="M">Medium</option>
+                  <option value="L">Large</option>
+                  <option value="X">X-Large</option>
+                </select>
+                <select id="pizzaCrust" name="pizzaCrust" size="2">
+                  <option value="regular">Regular Crust</option>
+                  <option value="thin">Thin Crust</option>
+                  <option value="thick">Thick Crust</option>
+                  <option value="wheat">Whole Wheat Crust</option>
+                </select>
+                <br>
+              </div>
+              <h1> Cheeses</h1>
+              <div class="cheeses">
+                <input type="radio" name="cheese" id="c01" value="Mozzarella" />Mozzarella
+                <input type="radio" name="cheese" id="c02" value="Reduced Fat" />Reduced Fat
+                <input type="radio" name="cheese" id="c03" value="Feta" />Feta
+              </div>
+              <h1> Sauces</h1>
+              <div class="sauces">
+                <input type="radio" name="sauce" id="s01" value="Pizza Sauce" />Pizza Sauce
+                <input type="radio" name="sauce" id="s02" value="BBQ Sauce" />BBQ Sauce
+                <input type="radio" name="sauce" id="s03" value="Garlic Sauce" />Garlic Sauce
+              </div>
+              <h1> Special Instructions</h1>
+              <div class="instruct">
+                <input id="note" type="text" name="note" maxlength="150" />
+              </div>
+            </td>
+            <td>
+              <div class="rightColumn">
+                <h1 id="topHeader"> Choose Toppings - $1.79 Each </h1>
+                <div class="toppings">
+                  <div class="topCol1">
+                    <input type="checkbox" name="toppings" id="t01" value="Anchovies" />Anchovies
+                    <br>
+                    <input type="checkbox" name="toppings" id="t02" value="Bacon" />Bacon
+                    <br>
+                    <input type="checkbox" name="toppings" id="t03" value="Ham" />Ham
+                    <br>
+                    <input type="checkbox" name="toppings" id="t04" value="Pepperoni" />Pepperoni
+                    <br>
+                    <input type="checkbox" name="toppings" id="t05" value="Salami" />Salami
+                    <br>
+                    <input type="checkbox" name="toppings" id="t06" value="Sausage" />Sausage
+                  </div>
+                  <div class="topCol2">
+                    <input type="checkbox" name="toppings" id="t07" value="Broccoli" />Broccoli
+                    <br>
+                    <input type="checkbox" name="toppings" id="t08" value="Green Olives" />Green Olives
+                    <br>
+                    <input type="checkbox" name="toppings" id="t09" value="Green Peppers" />Green Peppers
+                    <br>
+                    <input type="checkbox" name="toppings" id="t10" value="Mushrooms" />Mushrooms
+                    <br>
+                    <input type="checkbox" name="toppings" id="t11" value="Red Onions" />Red Onions
+                    <br>
+                    <input type="checkbox" name="toppings" id="t12" value="Roasted Garlic" />Roasted Garlic
+                  </div>
+                </div>
+                <div class="image1">
+                  <div id="special"> <img src="papas.jpg" alt="" /> </div>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </form>
+    <footer>
+      <script>
+        var dt=new Date(document.lastModified);   // Get document last modified date
+        document.write('This page was last updated on '+dt.toLocaleString())
+      </script>
+    </footer>
+  </body>
+</html>

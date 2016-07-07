@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>HTML5</title>
+  <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/sitecss.css" type="text/css" media="screen" /> </head>
+
+<body>
+  <div id="sideNav" class="side_nav"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <ul style="list-style-type:none">
+      <li><a href="https://zenit.senecac.on.ca/~int222_161d05/">My Zenit</a>
+      </li>
+      <li><a href="index.html">Home</a>
+      </li>
+      <li><a href="gallery.html">Gallery</a>
+      </li>
+      <li><a href="video.html">Video</a>
+      </li>
+      <li><a href="audio.html">Audio</a>
+      </li>
+      <li><a href="html5.html">HTML5</a>
+      </li>
+      <li><a href="tables.html">Tables</a>
+      </li>
+      <li><a href="guestbook/index.html">Guestbook</a>
+      </li>
+      <li><a href="css/sitecss.css">CSS Used</a>
+      </li>
+      <li><a href="extra/index.html">Extra</a>
+      </li>
+    </ul>
+  </div>
+  <div class="wrapper">
+    <div id="main">
+      <div id="header"> <span id="menu_collapse" style="cursor:pointer" onclick="openNav()"> ☰ </span>
+        <h1> HTML5 </h1> <img id="html_icon" src="images/icons/html_icon.png" alt="Home Icon" height="55" width="55">
+        <div class="rightBox">
+          <h2 id="rec_link">New Attributes in HTML5</h2>
+          <ol>
+            <li> id </li>
+            <li> class </li>
+            <li> style </li>
+            <li> title </li>
+          </ol>
+          <h2 id="sm_link">Social Media Links</h2>
+          <div id="social_media" style="position: relative; background: url('images/social_media.png') no-repeat; width: 250px; height: 140px;">
+            <!-- images on row 1 - top 3px left 4px    - increment left by 27px for the next one -->
+            <!-- images on row 2 - top 30px left 4px   - increment left by 27px for the next one -->
+            <!-- images on row 3 - top 57px left 4px   - increment left by 27px for the next one -->
+            <!-- images on the next row - increment top by 27px for the next row -->
+            <a href="http://www.facebook.com" style=" width: 23px; height: 23px; border: 0; position: absolute; top: 4px; left: 5px;"></a>
+            <!-- use this as a guide -->
+            <a href="http://www.twitter.com" style=" width: 23px; height: 23px; border: 0;position: absolute; top: 4px; left: 34px;"></a>
+            <!-- use this as a guide -->
+            <a href="http://www.pintrest.com" style=" width: 23px; height: 23px; border: 0;position: absolute; top: 4px; left: 61px;"></a>
+            <a href="https://plus.google.com/" style=" width: 23px; height: 23px; border: 0;position: absolute; top: 4px; left: 85px;"></a>
+          </div>
+        </div>
+      </div>
+      <div class="main_body">
+        <h3 class="HC_title">HTML5 New Form Attributes </h3>
+        <p id="HC_history"> HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and current version of the HTML standard. HTML5 includes detailed processing models to encourage more interoperable implementations; it extends, improves and rationalizes the markup available for documents, and introduces markup and application programming interfaces (APIs) for complex web applications.[5] For the same reasons.<a href="https://en.wikipedia.org/wiki/HTML5">("Wikipedia- HTML5")</a>
+          <hr class="seperator_dashed">
+          <h3 class="HC_title">How to Set Autofocus </h3>
+          <p class="code_caption"> Code:</p>
+          <textarea class="comments" name="comments" rows="2" cols="90">
+            <input type="text" name="entro01" id="entry01" autofocus="autofocus" /> </textarea>
+          <p class="example_caption"> Example:</p>
+          <input type="text" name="entro01" id="entry01" autofocus="autofocus" />
+          <br>
+          <br> <a href="#top">Top</a>
+          <hr class="seperator_dashed">
+          <h3 class="HC_title">How to Set a Placeholder </h3>
+          <p class="code_caption"> Code:</p>
+          <textarea class="comments" name="comments" rows="2" cols="90">
+            <input type="text" name="fname" placeholder="Sample Placeholder"> </textarea>
+          <p class="code_caption"> Example:</p>
+          <input type="text" name="fname" placeholder="Sample Placeholder">
+          <br>
+          <br> <a href="#top">Top</a>
+          <hr class="seperator_dashed">
+          <h3 class="HC_title">How to Set a Required Field for an Entry </h3>
+          <p class="code_caption"> Code:</p>
+          <textarea class="comments" name="comments" rows="2" cols="90">
+            <form> Name:
+              <input type="text" name="name" required>
+              <input type="submit"> </form>
+          </textarea>
+          <p class="example_caption"> Example:</p>
+          <form> Name:
+            <input type="text" name="name" required>
+            <input type="submit"> </form>
+          <br> <a href="#top">Top</a>
+          <hr class="seperator_dashed">
+          <h3 class="HC_title">How to a List/ Datalist </h3>
+          <p class="code_caption"> List Code:</p>
+          <textarea class="comments" name="comments" rows="6" cols="90">
+            <ul>
+              <li>INT222</li>
+              <li>OOP244</li>
+              <li>DBS201</li>
+              <li>IBC233</li>
+            </ul>
+          </textarea>
+          <p class="example_caption"> Example:</p>
+          <ul>
+            <li>INT222</li>
+            <li>OOP244</li>
+            <li>DBS201</li>
+            <li>IBC233</li>
+          </ul> <a href="#top">Top</a>
+          <hr class="seperator_dashed">
+          <p class="code_caption"> Data List Code:</p>
+          <textarea class="comments" name="comments" rows="8" cols="90">
+            <input list="course" name="course">
+            <datalist id="browsers">
+              <option value="INT222">INT222</option>
+              <option value="OOP244">OOP244</option>
+              <option value="DBS201">DBS201</option>
+              <option value="IBC233">IBC233</option>
+            </datalist>
+            <input type="submit"> </textarea>
+          <p class="example_caption"> Example:</p>
+          <input list="courses">
+          <datalist id="courses">
+            <option value="INT222">INT222</option>
+            <option value="OOP244">OOP244</option>
+            <option value="DBS201">DBS201</option>
+            <option value="IBC233">IBC233</option>
+          </datalist>
+          <input type="submit">
+          <br>
+          <br> <a href="#top">Top</a>
+          <hr class="seperator_dashed">
+          <h3 class="HC_title">How to Ensure a Valid E-mail Format </h3>
+          <p class="code_caption"> Code:</p>
+          <textarea class="comments" name="comments" rows="4" cols="90">
+            <form>
+              <input type="email" required />
+              <input type="submit" value="Submit"> </form>
+          </textarea>
+          <p class="example_caption"> Example:</p>
+          <form>
+            <input type="email" required />
+            <input type="submit" value="Submit"> </form>
+          <br> <a href="#top">Top</a>
+          <hr class="seperator_dashed">
+          <h3 class="HC_title">How to Ensure a Valid URL Format </h3>
+          <p class="code_caption"> Code:</p>
+          <textarea class="comments" name="comments" rows="4" cols="90">
+            <form>
+              <input type="url" required />
+              <input type="submit" value="Submit"> </form>
+          </textarea>
+          <p class="example_caption"> Example:</p>
+          <form>
+            <input type="url" required />
+            <input type="submit" value="Submit"> </form>
+          <br> <a href="#top">Top</a> </div>
+      <footer>
+        <hr class="footer_seperator">
+        <script>
+          var dt = new Date(document.lastModified); // Get document last modified date
+          document.write('This page was last updated on ' + dt.toLocaleString())
+        </script>
+      </footer>
+    </div>
+    <!--Within this div  to push all content to the right -->
+  </div>
+  <!-- Sourced from http://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav_push -->
+  <script>
+    function openNav() {
+      document.getElementById("sideNav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("sideNav").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+    }
+  </script>
+</body>
+
+</html>
